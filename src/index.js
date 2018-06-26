@@ -15,7 +15,7 @@ getUsers().then(result => {
       <td>${user.email}</td>
       </tr>`
   });
-  console.log("Result is here");
+ 
 
   global.document.getElementById('users').innerHTML = usersBody;
 });

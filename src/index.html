@@ -5,11 +5,13 @@
 
   <!--
      <% if (htmlWebpackPlugin.options.trackJSToken) { %>
-   // <!-- BEGIN TRACKJS
+   //  BEGIN TRACKJS
     <script type="text/javascript">window._trackJs = { token: '<%=htmlWebpackPlugin.options.trackJSToken%>' };</script>
     <script type="text/javascript" src="https://cdn.trackjs.com/releases/current/tracker.js"></script>
-    <!-- END TRACKJS
+    END TRACKJS
     <% } %> -->
+  <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
+
   <meta charset="UTF-8">
 </head>
 
